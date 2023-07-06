@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navBar{
@@ -22,8 +23,14 @@
 .menulist{
     margin-left: 10px;
     padding-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
     
+}
+.menulist:hover
+{
+    color: red;
+    transition: 0.3s;
 }
 
 .HeroSection{
@@ -42,6 +49,7 @@
 .headingSection p{
  font-size: 20px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 600;
 }
 .headingSection{
     padding-left: 60px;
@@ -58,10 +66,46 @@
     
 }
 button{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 margin-top: 20px;
 background-color: red;
 color: aliceblue;
 padding: 13px 20px;
-border-radius:3px ;    
+border-radius:4px ;    
 border-style: none;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(202, 205, 207);
+    color:red ;
+    transition: 0.5s;
+}
+
+/*              About section                 */
+
+.About{
+    height: 80vh;
+    background-color: white;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aboutContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+h3{
+    font-size: 30px;
+}
+.aboutDescription{
+    padding-top: 15px ;
 }
